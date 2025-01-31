@@ -7,6 +7,7 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/cb3a227def.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -273,28 +274,51 @@
 
 
         </section>
-        <!-- Awesome news -->
-        <section class="container mx-auto px-4 py-10 ">
-            <div class="flex flex-col md:flex-row rounded-xl bg-[#FFF9F4] items-center">
-
-                <div class="w-[40%] flex justify-center items-center p-20">
-                    <img src="./c1-assets/cute-pet-mid.png" class="w-full" alt="">
-                </div>
-                <div class="w-[60%]">
-                    <h2 class="text-xl md:text-3xl font-bold">Get Pawsome News!</h2>
-                    <p class=" font-medium my-4">Exclusive training tips, ticks, product deals and more.</p>
-                    <input type="email" name="" placeholder="Enter your email" class="px-4 py-2 max-w-xl w-full border-2 rounded-xl border-gray-200 bg-white" id="">
-                    <button class="bg-[#FFDC26] px-4 py-2 rounded-xl block mt-4">Register</button>
-                </div>
-            </div>
-
-        </section>
+       
 
     </main>
-    <footer>
-
-
+    <section class="container mx-auto px-4 pb-10 z-50 relative">
+        <div class="flex flex-col md:flex-row rounded-xl bg-[#FFF9F4] items-center -mb-64 z-50 relative">
+            <div class="md:w-[40%] flex justify-center items-center p-5 lg:p-20">
+                <img src="./c1-assets/cute-pet-mid.png" class="w-full" alt="">
+            </div>
+            <div class="md:w-[60%] pb-10">
+                <h2 class="text-xl md:text-3xl font-bold">Get Pawsome News!</h2>
+                <p class="font-medium my-4">Exclusive training tips, tricks, product deals, and more.</p>
+                <input type="email" placeholder="Enter your email"
+                    class="px-4 py-2 max-w-xl w-full border-2 rounded-xl border-gray-200 bg-white">
+                <button class="bg-[#FFDC26] px-4 py-2 rounded-xl block mt-4">Register</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-[#FFDC2680] pt-48 relative">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3 py-20">
+            <div>
+                <div class="flex items-center gap-3">
+                    <img src="./c1-assets/logo-footer.png" class="w-8" alt="">
+                    <h3 class="text-2xl font-semibold">Browse <span class="text-[#FFDC26]">4</span>Pets</h3>
+                </div>
+                <p class="font-medium mt-2">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+            <div class="space-y-3">
+                <p>Find a Pet</p>
+                <p>Breeds</p>
+                <p>Contact Us</p>
+            </div>
+            <div>
+                <p class="font-medium">Follow Us</p>
+                <div class="flex gap-4 mt-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
     </footer>
+    
+    <script src="https://kit.fontawesome.com/cb3a227def.js" crossorigin="anonymous"></script>
 
 </body>
 
