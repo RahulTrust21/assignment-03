@@ -25,11 +25,14 @@
                 <p>Contact Us</p>
 
             </div>
-            <div class="hidden md:block">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="hidden md:flex items-center gap-3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bell"></i>
                 <button class="border-2 px-4 py-2 rounded-xl border-[#FFDC26]">Login</button>
                 <button class="bg-[#FFDC26] px-4 py-2 rounded-xl">Register</button>
+            </div>
+            <div class=" md:hidden">
+                <i class="fa-solid fa-bars text-3xl"></i>
             </div>
         </nav>
 
@@ -37,7 +40,7 @@
     <main class="">
 
         <!-- hero -->
-        <section class="container px-4 mx-auto my-6 md:my-10 min-h-screen bgImg bg-cover bg-no-repeat">
+        <section class="container px-4 mx-auto my-6 md:my-10 min-h-screen bgImg bg-contain bg-no-repeat">
             <div>
                 <h1 class="font-bold text-3xl md:text-5xl max-w-xl">Pamper Your Pet, Because They Deserve the Best</h1>
                 <p class="max-w-lg text-[#111111] py-6">Discover a world of treats, toys, and essentials handpicked for
@@ -278,7 +281,7 @@
 
     </main>
     <section class="container mx-auto px-4 pb-10 z-50 relative">
-        <div class="flex flex-col md:flex-row rounded-xl bg-[#FFF9F4] items-center -mb-64 z-50 relative">
+        <div class="flex flex-col md:flex-row rounded-xl bg-[#FFF9F4] items-center -mb-64 z-50 relative px-4">
             <div class="md:w-[40%] flex justify-center items-center p-5 lg:p-20">
                 <img src="./c1-assets/cute-pet-mid.png" class="w-full" alt="">
             </div>
