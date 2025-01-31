@@ -1,5 +1,6 @@
 .bgImg {
     background-image: url(./c1-assets/cat-big.png);
+    background-position: bottom;
 }
 
 .dogsTshirt {
@@ -16,4 +17,12 @@
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.largeCard{
+    background-image: url('./c1-assets/cute-pet-mid.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat
+
 }
